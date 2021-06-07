@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple To Do</string>
+    <string name="heading">My To-Do List</string>
+    <string name="input" /> <!-- Without Enhancement for EditText field-->
+    <string name="btnAdd">Add Task</string>
+    <string name="btnDel">Delete Task</string>
+    <string name="btnClear">Clear</string>
+
+    <!-- ENHANCEMENT 1 -->
+    <string-array name="spinnerItems">
+        <item>Add A New Task</item>
+        <item>Remove A Task</item>
+    </string-array>
+    <string name="enter">Type In A New Task Here ~</string> <!-- Enhancement 1 -->
+    <string name="index">Type In The Index of the Task to be Removed</string> <!-- Enhancement 1 -->
+</resources>
