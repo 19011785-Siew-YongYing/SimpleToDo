@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 tdTasksA.notifyDataSetChanged();
                 Toast.makeText(MainActivity.this, "Tasks cleared!", Toast.LENGTH_LONG).show();
                 String input = addDelTask.getText().toString();
-                if (input.length() > 0){
+                if (input.length() > 0){ // Remove text entered by user as well
                     addDelTask.setText("");
                 }
             }
